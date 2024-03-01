@@ -17,4 +17,5 @@ public class ClassTest {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     long id;
+    long cin;
 }
